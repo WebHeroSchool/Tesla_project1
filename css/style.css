@@ -1,28 +1,27 @@
 @font-face {
-    font-family: 'montserrat-regular';
-    src: url('../fonts/-webfont.woff2') format('woff2'),
-         url('../fonts/-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-black';
-    src: url('../fonts/-black-webfont.woff2') format('woff2'),
-         url('../fonts/-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-bold';
-    src: url('../fonts/-bold-webfont.woff2') format('woff2'),
-         url('../fonts/-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'Montserrat-Black';
+	src: url('../fonts/Montserrat-Black.eot');
+	src: local('☺'), url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
 }
+
 
 html {
     box-sizing: border-box;
@@ -33,11 +32,11 @@ html {
 }
 
 body {
-    font-family: 'montserrat-regular';
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
-    font-weight: normal;
     color: #000;
 }
 
@@ -208,7 +207,8 @@ header {
 /* .ModelS__icon-display {
     padding: 52px 51px; 
     margin-bottom: 35px;
-} */
+*/ 
+}
 
 .ModelS__icon {
     padding-left: 52px;
