@@ -1,0 +1,389 @@
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: local('☺'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Black';
+	src: url('../fonts/Montserrat-Black.eot');
+	src: local('☺'), url('../fonts/Montserrat-Black.woff') format('woff'), url('../fonts/Montserrat-Black.ttf') format('truetype'), url('../fonts/Montserrat-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+}
+
+/* Header styles start */
+.wrapper {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    } 
+
+.header__item {
+    margin-right: 100px;
+} 
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__item1 {
+    margin-right: auto;
+}
+
+.header__link {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none; /*чтобы убрать подчеркивание у ссылок */
+}
+
+.header__nav ul li {
+    list-style: none; /*чтобы убрать маркеры у ссылок */
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: 75%;
+}
+
+.header-nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+}
+
+.nav_header-item1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+.intro {
+    width: 1514px;
+    min-height: 100vh;
+    left: -37px;
+    top: 135px;
+    padding-top: 76px;
+    margin-bottom: 280px;
+ }
+
+.wrapper2 {
+    background: url(../img/Tesla-Background.png) no-repeat center;
+    width: 1514px;
+    height: 467px;
+    left: -37px;
+    top: 135px;
+}
+.intro__title {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 80px;
+    color: #000;
+    text-align: center;
+    margin-bottom: -15px;
+ }
+
+.intro__subtitle {
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 27px;  
+ }
+
+ .intro__pic-car {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+ }
+
+ 
+  .intro__pic-car {
+
+    left: 150px;
+    top: 20px;
+ }  
+
+ .showing-pics {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 81px;
+    padding: 0 265px;
+    margin-bottom: 48px;
+ }
+
+ .showing {
+    grid-column: span 1;
+ }
+
+ .showing-pic-test__drive1 {
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-right: -100px;
+ }
+
+
+ .search-form__submit {
+    width: 160px;
+    height: 40px;
+    padding: 7px 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: #E51937;
+    background: transparent;
+    border-style: solid;
+    border-color: #E51937;
+    margin-top: 3px;
+ }
+
+ .search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active{
+    color: rgb(187, 14, 40);
+ }
+
+ .vector {
+    display: block;
+    margin-left: 200px;
+ }
+/* Intro styles end */
+
+/* Model S styles start */
+
+.modelS__wrap {
+    width: 1412px; 
+    height: 860px;
+    background: url(../img/Tesla-panel.png) no-repeat;
+    margin-bottom: -56.5px;
+}
+
+.modelS__title {
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937 ;
+}
+
+.modelS__wrap-subtitle {
+    max-width: 440px;
+    height: 900px;
+    margin-left: auto;
+    background-color: #E51937; 
+    transform: translateY(-22%);
+}
+
+.modelS__wrap-sub {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff; 
+    padding: 51px 52px;
+    margin-bottom: -50px;
+    }
+
+
+.modelS__subtitle {
+    width: 316px;
+    height: 206px;
+    padding-left: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff; 
+    margin-bottom: 70px;
+
+}
+
+.modelS__icon {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    padding-left: 52px;
+}
+
+.modelS__bottom-icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3px;
+    margin-top: 180px;
+
+}
+
+.botton__learn-more1, .search-form {
+    margin-left: 67px;
+}
+
+.search-form {
+    width: 160px;
+    height: 40px;
+}
+.search-form__submit2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 11px 30px;
+    color:#fff;
+    background: transparent;
+    border-style: solid;
+    border-color: #fff;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+    .search-form__submit2:hover, .search-form__submit2:focus, .search-form__submit2:active{
+        color: rgb(204, 201, 201);
+
+}
+
+/* Model S styles end */
+
+
+/* Safety auto styles start */
+
+.safety__auto-wrap {
+    max-width: 1400px;
+    background: url(../img/Car_frame.png) no-repeat left 335px top 270px, url(../img/Model_S.png) no-repeat right top 185px;
+} 
+
+.safety__auto-title  {
+    max-width: 440px;
+    height: 900px;
+    margin-right: auto;
+    background-color: #E51937;
+}
+
+.safety__auto_title4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    padding: 51px 52px 68px;
+    color: #fff;
+}
+
+.safety__auto-sub { 
+    width: 316px;
+    height: 134px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 56px;
+    margin-top: -85px;
+    color: #fff; 
+}
+
+.safety__auto-title5 {
+    padding-left: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 5px;
+    color: #fff;
+} 
+
+.auto__title-5 {
+    margin: 30px 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.auto__front, .auto__side, .auto__driver, .auto__passenger {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: -10px;
+
+}
+
+.stars1 {
+    margin-top: 8px;
+    margin-left: -50px;
+}
+
+.auto__side2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: -10px;
+}
+
+.side2 {
+    margin-left: -50px;
+    font-weight: normal;
+    font-size: 7px;
+    margin-top: 19px;
+}
+
+.stars2 {
+    margin-left: -105px;
+    margin-top: 10px;
+}
+
+.star5__safety {
+    margin-top: 55px;
+    margin-bottom: 85px;
+}
+
+.safety__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+
+/* Safety auto styles end */
