@@ -52,56 +52,54 @@ header {
     width: 100%;
 }
 
-.header__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 40px;
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
-.header__list {
+.header__nav {
+    max-width: 1350px;
     display: flex;
-    flex-wrap: wrap;
-    } 
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
 
 .header__item {
-    margin-right: 100px;
-} 
-.header__item:last-child {
-    margin-right: 0;
-}
-
-.header__item1 {
-    margin-right: auto;
-}
-
-.header__link {
+    padding: 10px 15px;
     font-size: 15px;
     line-height: 18px;
-    color: #000;
-    text-decoration: none; /*чтобы убрать подчеркивание у ссылок */
 }
 
-.header__nav ul li {
-    list-style: none; /*чтобы убрать маркеры у ссылок */
-}
-
-.header__link:hover, .header__link:focus, .header__link:active {
+.header__item:hover {
     opacity: 75%;
 }
 
-.header-nav{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 10px;
+.header__button1 {
+    margin-left: 265px;
 }
 
-.nav_header-item1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
+.header__button2 {
+    margin-left: 45px;
 }
+
+.header__button3 {
+    margin-left: 1px;
+}
+
+.header__button4 {
+    margin-left: 8px;
+}
+
+.header__button5 {
+    margin-left: 4px;
+}
+
 
 /* Header styles end */
 
@@ -111,7 +109,7 @@ header {
     min-height: 100vh;
     left: -37px;
     top: 135px;
-    padding-top: 76px;
+    padding-top: 85px;
     margin-bottom: 280px;
  }
 
@@ -294,7 +292,7 @@ header {
 
 .safety__auto-wrap {
     max-width: 1400px;
-    background: url(../img/Car_frame.png) no-repeat left 335px top 270px, url(../img/Model_S.png) no-repeat right top 185px;
+    background:  url(../img/Model_S.png) no-repeat right top 185px;
 } 
 
 .safety__auto-title  {
@@ -302,6 +300,52 @@ header {
     height: 900px;
     margin-right: auto;
     background-color: #E51937;
+}
+
+.car {
+    position: absolute;
+}
+
+.modelS_car-frame {
+    margin-left: 305px;
+    margin-top: 268px;
+}
+
+.arrows {
+    position: absolute;
+}
+.safety__arrow1 {
+    margin-left: 569px;
+    margin-top: 270px;
+}
+
+.safety__arrow2 {
+    margin-left: 260px;
+    margin-bottom: 200px;
+}
+
+.safety__arrow3 {
+    margin-left: 37px;
+    margin-bottom: -198px;
+}
+
+.arrows__desc {
+    position: absolute;
+}
+
+.arrows__desc1-f {
+    margin-left: 585px;
+    margin-top: 270px;
+}
+
+.arrows__desc2-s {
+    margin-left: 125px;
+    margin-bottom: 52px;
+}
+
+.arrows__desc3-a {
+    margin-left: -95px;
+    margin-bottom: -450px;
 }
 
 .safety__auto_title4 {
