@@ -33,7 +33,7 @@
   .page {
     max-width: 1440px;
     margin: 0 auto;
-    font-family: Montserrat;
+    font-family: "Montserrat-Regular";
   }
   
   /* Шапка сайта и меню */
@@ -351,7 +351,7 @@
   
   .security {
     background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat,
-      url(../img/car_frame_group.png) 88.5% 55%/73% auto no-repeat;
+      url(../img/Car_frame_group.png) 88.5% 55%/73% auto no-repeat;
     background-blend-mode: hue;
     display: flex;
     justify-content: space-between;
@@ -448,7 +448,7 @@
     }
   
     .security {
-      background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat, url(../img/car_frame_group.png) 100% 52%/73% auto no-repeat;
+      background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat, url(../img/Car_frame_group.png) 100% 52%/73% auto no-repeat;
     }
   }
   
@@ -568,7 +568,7 @@
   
     .security {
       background: url(../img/ModelS.svg) 50% 7%/80% auto no-repeat,
-        url(../img/car_frame_group.png) 50% 16%/95% auto no-repeat;
+        url(../img/Car_frame_group.png) 50% 16%/95% auto no-repeat;
       flex-direction: column-reverse;
       min-height: 1100px;
     }
@@ -733,7 +733,7 @@
     }
   
     .security {
-      background: url(../img/ModelS.svg) 54% 8%/77% auto no-repeat, url(../img/car_frame_group.png) -32% 13%/96% auto no-repeat;
+      background: url(../img/ModelS.svg) 54% 8%/77% auto no-repeat, url(../img/Car_frame_group.png) -32% 13%/96% auto no-repeat;
       min-height: 1037px;
     }
   
@@ -967,7 +967,7 @@
     }
   
     .security {
-      background: url(../img/ModelS.svg) 0% 10%/107% auto no-repeat, url(../img/car_frame_group.png) 0% 16%/96% auto no-repeat;
+      background: url(../img/ModelS.svg) 0% 10%/107% auto no-repeat, url(../img/Car_frame_group.png) 0% 16%/96% auto no-repeat;
       min-height: 625px;
     }
   }
@@ -991,3 +991,4 @@
       min-height: 730px;
     }
   }
+  
