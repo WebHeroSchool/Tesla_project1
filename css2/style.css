@@ -522,7 +522,7 @@
       width: calc(100% - 40px);
       margin-top: 70px;
     }
-    
+
   
     .info {
       flex-direction: column;
@@ -594,6 +594,12 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 996px) {
+    .description-wrap {
+      margin-left: 20px;
+    }
+  }
   
   @media screen and (max-width: 964px) {
     .security {
@@ -604,7 +610,11 @@
       min-height: 600px;
     }
   
+    .description-wrap {
+      margin-left: 20px;
+    }
   }
+  
   
   @media screen and (max-width: 800px) {
     .preview__info {
@@ -623,7 +633,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 790px) {
     .header {
       margin-bottom: 82px;
     }
