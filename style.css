@@ -22,7 +22,6 @@
 	font-style: normal;
 }
 
-
 html {
     box-sizing: border-box;
 }
@@ -105,7 +104,7 @@ header {
     font-weight: 600;
     font-size: 90px;
     line-height: 110px;
-    color: #000;
+    color: aquamarine;
     text-align: center;
     margin-bottom: -9px;
  }
@@ -120,10 +119,6 @@ header {
  }
 
  .intro__pic-car {
-    width: 968px;
-    height: 450px;
-    left: 236px;
-    top: 279px;
     margin: auto;
  }
 
@@ -131,6 +126,10 @@ header {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      column-gap: 81px;
+ }
+
+ .pic__distance {
+     margin-right: 0%; 
  }
 
  .search-form__submit {
@@ -207,8 +206,8 @@ header {
 /* .ModelS__icon-display {
     padding: 52px 51px; 
     margin-bottom: 35px;
-*/ 
-}
+
+} */
 
 .ModelS__icon {
     padding-left: 52px;
