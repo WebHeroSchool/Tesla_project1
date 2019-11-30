@@ -318,6 +318,11 @@
     margin-bottom: 138px;
   }
   
+
+  .specification-screen {
+    margin-left: 15px;
+  }
+  
   .order_aside-right {
     margin-left: 18px;
     max-width: 380px;
@@ -454,8 +459,12 @@
     .security {
       background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat, url(../img/Car_frame_group.png) 100% 52%/73% auto no-repeat;
     }
+
+    .specification-screen {
+      margin-left: 15px;
+    }
   }
-  
+    
   @media screen and (max-width: 1201px) {
     .header {
       margin-bottom: 82px;
@@ -482,6 +491,10 @@
     .security {
       background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat, url(../img/Car_frame_group.png) 100% 40%/67% auto no-repeat;
     }
+
+    .specification-screen {
+      margin-left: 15px;
+    }
   }
   
   @media screen and (max-width: 1101px) {
@@ -505,6 +518,10 @@
   
     .security {
       min-height: 890px;
+    }
+
+    .specification-screen {
+      margin-left: 15px;
     }
   }
   
